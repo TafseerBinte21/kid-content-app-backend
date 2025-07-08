@@ -1,0 +1,9 @@
+INSERT INTO contents (id,description,  full_image_url, thumbnail_url, title, video, video_link)
+VALUES (
+  '3', 'Play with Winnie the Pooh and all of his pals in the Hundred Acre Wood! Bounce with Tigger, fly a kite with Piglet, play games with Kanga, spend time with Eeyore and MORE!', 
+  '/img/poohicon.png',
+   '/img/poohfullimage.png',
+  'Winnie-the-pooh',
+  'https://www.youtube.com/embed/iTEjzTKISA4',
+  'https://youtu.be/iTEjzTKISA4?si=-yn-AGSHJt8Z5D90'
+);
