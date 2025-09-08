@@ -43,5 +43,19 @@ public class ContentService {
 	                content.getDescription()
 	        ));
 	    }
+	 
+	   public Contents saveContent(String title, String description, String thumbnailUrl, String fullImageUrl, String videoUrl) {
+	        Contents content = new Contents();
+	        content.setTitle(title);
+	        content.setDescription(description);
+	        content.setThumbnailUrl(thumbnailUrl);
+	        content.setFullImageUrl(fullImageUrl);
+	        content.setVideoLink(videoUrl);  
+	        return contentRepository.save(content);
+	    }
+	   
+	   public Contents save(Contents content) {
+	        return contentRepository.save(content);
+	    }
 
 }
